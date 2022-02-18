@@ -1,0 +1,28 @@
+.navigation__link {
+    margin: 0;
+    padding: 0;
+    margin-right: 18px;
+    font-size: 16px;
+    line-height: 1.125;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation__link:last-of-type {
+    margin-right: 0;
+}
+
+@media (max-width: 767px) {
+    .navigation__link {
+        font-size: 24px;
+        line-height: 1;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+
+    .navigation__link:last-of-type {
+        margin-bottom: 48px;
+    }
+} 
