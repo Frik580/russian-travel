@@ -6,14 +6,13 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
-<body>
-  <div class="root">
+<body class="root">
     <header class="header">
       <a href="#" class="logo hover-link"></a>
-      <nav class="menu">
+      <div class="menu">
         <a href="#" class="menu__item menu__item_active hover-link">Ru</a>
         <a href="#" class="menu__item hover-link">En</a>
-      </nav>
+      </div>
     </header>
 
     <main class="content">
@@ -34,11 +33,13 @@
            Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих 
            детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. 
            Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-        <p class="intro__list">Часовых поясов 11</p>
-        <p class="intro__list">Объектов природного наследия ЮНЕСКО 12</p>
-        <p class="intro__list">Объектов культурного наследия ЮНЕСКО 16</p>
-        <p class="intro__list">Природных заповедников 105</p>
-        <p class="intro__list">Аэропортов 241</p>
+        <ul class="intro__list">
+          <li>Часовых поясов 11</li>
+          <li>Объектов природного наследия ЮНЕСКО 12</li>
+          <li>Объектов культурного наследия ЮНЕСКО 16</li>
+          <li>Природных заповедников 105</li>
+          <li>Аэропортов 241</li>
+        </ul>
       </section>
 
       <section class="photo-grid">
@@ -57,7 +58,7 @@
       </section>
 
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -73,8 +74,8 @@
             Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера 
             здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -90,8 +91,8 @@
               Но ваша мечта увидеть северное сияние начинает сбываться с билетом
               в Мурманск.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -106,8 +107,8 @@
               разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся 
               косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -121,8 +122,8 @@
               вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. 
               В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
@@ -137,7 +138,7 @@
               В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="cover">
@@ -159,6 +160,5 @@
         <p class="footer__copyright">&#169; 2022. METRIC-Studio</p>
       </footer>
     </main>
-  </div>
 </body>
 </html>
